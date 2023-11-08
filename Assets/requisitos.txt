@@ -1,0 +1,6 @@
+Lens Flare;
+TrailRenderer;
+Skybox;
+Particle System;
+Particle Collision;
+Controlar os efeitos por script.
