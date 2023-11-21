@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetMouseButton(0) && l_canShot)
         {
-            l_rigidBody = Instantiate(shot, transform.position, Quaternion.identity, null).GetComponent<Rigidbody>();
+            l_rigidBody = Instantiate(shot, transform.position + transform.forward + Vector3.up, Quaternion.identity, null).GetComponent<Rigidbody>();
             l_rigidBody.AddForce(transform.forward*force);
             StartCoroutine(CanShotDelay());
         }

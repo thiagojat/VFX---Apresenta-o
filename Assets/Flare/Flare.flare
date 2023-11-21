@@ -7,30 +7,38 @@ Flare:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Flare
-  m_FlareTexture: {fileID: 2800000, guid: 57bf37e21abb6be4883ed6b48befefe1, type: 3}
-  m_TextureLayout: 3
+  m_FlareTexture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+  m_TextureLayout: 2
   m_Elements:
   - m_ImageIndex: 0
+    m_Position: 0
+    m_Size: 15
+    m_Color: {r: 1, g: 0.78493315, b: 0.08018869, a: 1}
+    m_UseLightColor: 0
+    m_Rotate: 0
+    m_Zoom: 1
+    m_Fade: 1
+  - m_ImageIndex: 0
     m_Position: 0.2
-    m_Size: 0.81
-    m_Color: {r: 0.2891452, g: 1, b: 0.051886797, a: 1}
-    m_UseLightColor: 1
+    m_Size: 4
+    m_Color: {r: 0.4575472, g: 0.763564, b: 1, a: 0}
+    m_UseLightColor: 0
     m_Rotate: 0
     m_Zoom: 1
     m_Fade: 1
   - m_ImageIndex: 0
-    m_Position: 0.33
-    m_Size: 0.99
-    m_Color: {r: 1, g: 1, b: 1, a: 0}
-    m_UseLightColor: 1
+    m_Position: 0.5
+    m_Size: 7
+    m_Color: {r: 0.6556604, g: 0.90804416, b: 1, a: 0}
+    m_UseLightColor: 0
     m_Rotate: 0
     m_Zoom: 1
     m_Fade: 1
   - m_ImageIndex: 0
-    m_Position: 0.11
-    m_Size: 0.47
+    m_Position: 0.7
+    m_Size: 9
     m_Color: {r: 1, g: 1, b: 1, a: 0}
-    m_UseLightColor: 1
+    m_UseLightColor: 0
     m_Rotate: 0
     m_Zoom: 1
     m_Fade: 1
